@@ -204,6 +204,12 @@ hr {
   line-height: 1.16;
   color: #2d2e33;
 }
+@media (max-width: 1366px) {
+  .section-head .title {
+    font-size: 50px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .section-head .title {
     font-size: 50px;
@@ -259,6 +265,11 @@ hr {
   margin-top: 30px;
   /* max-width: 510px; */
 }
+@media only screen and (max-width: 1366px) {
+  .section-head .text {
+    font-size: 18px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-head .text {
     max-width: 100%;
@@ -300,6 +311,11 @@ hr {
 .section-head.section-title-center {
   margin-bottom: 90px;
   margin-top: -5px;
+}
+@media only screen and (max-width: 1366px) {
+  .section-head.section-title-center {
+    margin-bottom: 80px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-head.section-title-center {
@@ -658,12 +674,12 @@ hr {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1549px) {
   .section-margin-bottom {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-margin-bottom {
-    margin-bottom: 110px;
+    margin-bottom: 90px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1888,6 +1904,7 @@ hr {
 @media only screen and (min-width: 1200px) and (max-width: 1549px) {
   .slider-content-two .slider-content .title {
     max-width: 500px;
+    font-size: 52px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1914,6 +1931,11 @@ hr {
   text-transform: uppercase;
   letter-spacing: 8px;
 }
+@media (max-width: 1366px) {
+  .slider-content-two .slider-content .subtitle {
+    font-size: 20px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
   .slider-content-two .slider-content .subtitle {
     font-size: 20px;
@@ -1935,7 +1957,11 @@ hr {
   max-width: 600px;
   margin-bottom: 0;
 }
-
+@media (max-width: 1366px) {
+  .slider-content-two .slider-content .text {
+    font-size: 20px;
+  }
+}
 .slider-content-two .slider-content ul {
     margin-top: 30px;
 }
@@ -2780,7 +2806,7 @@ hr {
   line-height: 1.16;
   color: #2d2e33;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1366px) {
   .funfact-two .count-number {
     font-size: 40px;
   }
@@ -2798,7 +2824,7 @@ hr {
   color: #2d2e33;
   margin-top: 15px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1366px) {
   .funfact-two .count-title {
     font-size: 20px;
   }
@@ -3101,6 +3127,12 @@ hr {
 .service-two .section-head {
   margin-bottom: 90px;
 }
+
+@media only screen and (max-width: 1366px) {
+  .service-two .section-head {
+    margin-bottom: 50px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .service-two .section-head {
     margin-bottom: 50px;
@@ -3145,7 +3177,7 @@ hr {
   font-weight: 500;
   margin-top: 35px;
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 1366px) {
   .service-two-single-head .title {
     margin-top: 20px;
   }
@@ -4948,7 +4980,7 @@ hr {
   margin-top: 35px;
   margin-bottom: 30px;
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 1366px) {
   .testimonialtwo-text {
     font-size: 16px;
     margin: 20px 0;
@@ -4978,7 +5010,7 @@ hr {
   font-weight: 500;
   color: #2d2e33;
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 1366px) {
   .testimonialtwo-info .name {
     font-size: 20px;
   }
@@ -4988,6 +5020,11 @@ hr {
   color: #a3a1a9;
   font-size: 16px;
   margin-top: 5px;
+}
+@media only screen and (max-width: 1366px) {
+  .testimonialtwo-info .designation {
+    font-size: 15px;
+  }
 }
 .testimonialtwo .sliderone-pagination {
   bottom: 0px !important;
@@ -5408,6 +5445,11 @@ hr {
   color: #2d2e33;
   font-weight: 500;
   margin-top: 10px;
+}
+@media (max-width: 1366px) {
+  .single-subblog .title {
+    font-size: 18px;
+  }
 }
 .single-subblog .title a:hover {
   color: var(--main);
@@ -6750,6 +6792,11 @@ hr {
   font-size: 18px;
   margin-left: 15px;
 }
+@media (max-width: 1366px) {
+  .footer-widget .footer-widget-list-icon li span {
+    font-size: 15px;
+  }
+}
 .footer-widget .social-icon {
   margin-top: 40px;
 }
@@ -6783,6 +6830,12 @@ hr {
 .footer-widget-list li {
   font-size: 18px;
   margin-bottom: 15px;
+}
+@media (max-width: 1366px) {
+  .footer-widget-list li {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
 }
 .footer-widget-list li:last-child {
   margin-bottom: 0px;
@@ -6851,6 +6904,11 @@ hr {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   margin-top: 40px;
+}
+@media (max-width: 1366px) {
+  .footer-widget .footer-text {
+    font-size: 15px;
+  }
 }
 .footer-widget .footer-form-two {
   margin-top: 40px;
@@ -7024,6 +7082,11 @@ hr {
   font-size: 16px;
   margin-bottom: 0px;
 }
+@media (max-width: 1366px) {
+  .copyright p {
+    font-size: 14px;
+  }
+}
 .copyright p span {
   font-weight: 500;
 }
@@ -7087,4 +7150,11 @@ hr {
 .testimonialtwo-quote i.fas {
   color: var(--main);
   font-size: 60px;
+}
+
+@media (max-width: 1366px) {
+  .testimonialtwo-quote i.fas {
+    font-size: 50px;
+  }
+  
 }
