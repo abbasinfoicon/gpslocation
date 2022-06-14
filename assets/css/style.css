@@ -886,7 +886,7 @@ hr {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1549px) {
   .main-menu > ul > li {
-    margin-right: 40px;
+    margin-right: 20px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
